@@ -1,0 +1,117 @@
+body{
+    background: lightcyan;
+}
+h1{
+    text-align: center;
+    color: navy;
+}
+
+.parent{
+    margin-left: 200px;
+    display: flex; 
+}
+.ba{
+    background: darkgoldenrod;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    animation-name: animation-ba;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animation-ba{
+ 0%{
+      transform: skewX(30deg);
+}
+100%{
+    transform: skewX(-30deg );
+}
+
+}
+
+
+.bb{
+    background: rgb(12, 226, 47);
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    animation-name: animation-bb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes animation-bb{
+    0%{
+         transform: skewY(30deg);
+   }
+   100%{
+       transform: skewY(-30deg );
+   }
+   
+   }
+
+.bc{
+    background: rgb(241, 41, 181);
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    animation-name: animation-bc;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes animation-bc{
+    100%{
+      transform: rotateZ(60deg);
+    }
+}
+
+.bd{
+    background: rgb(153, 139, 214);
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    animation-name: animation-bd;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.bo{
+    animation-name: animation-bo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes animation-bo{
+    0%{
+       transform: skewX(50deg);
+    }
+}
+.bn{
+    animation-name: animation-bn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes animation-bn{
+    100%{
+     transform: scaleX(2);
+    }
+}
+.bm{
+    animation-name: animation-bm;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes animation-bm{
+    100%{
+      transform: rotateZ(60deg);
+    }
+}

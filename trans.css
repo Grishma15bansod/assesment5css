@@ -1,0 +1,87 @@
+body{
+    background: plum;
+    
+}
+.container{
+    margin: 50px;
+    margin-left: 510px;
+}
+.first{
+    background: crimson;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    transition: width 5s ease ;
+}
+.first:hover{
+    width: 400px;
+}
+.second{
+    background: rgb(54, 160, 80);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+   transition: width ease-in 5s, height ease-in 10s;
+}
+.second:hover{
+    width: 600px;
+    height:400px ;
+}
+.third{
+    background: rgb(228, 235, 167);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    transition: width ease-in-out 5s ;
+    
+}
+.third:hover{
+    width: 400px;
+}
+.four{
+    background: rgb(236, 22, 22);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    transition: width ease-in 2s;
+}
+.four:hover{
+    width: 400px;
+}
+.fifth{
+    background: rgb(145, 148, 145);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    transition: width cubic-bezier(1, 0, 0, 1) 7s ;
+
+}
+.fifth:hover{
+    width: 400px;
+
+}
+.six{
+    background: rgb(16, 190, 68);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    transition: width ease-out 2s;
+
+}
+.six:hover{
+    width: 400px;
+}
+.seven{
+    background: rgb(244, 247, 87);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    transition:  width linear 5s;
+}
+.seven:hover{
+    width: 400px;
+}
+.lc{
+    text-align: center;
+    color: limegreen;
+}
